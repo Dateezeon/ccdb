@@ -10,7 +10,6 @@ export default function RecipePage() {
     <>
       <Pagination page={page || 1} />
       <Recipes page={page || 1} />
-      <Pagination page={page || 1} />
     </>
   );
 }

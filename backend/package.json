@@ -1,18 +1,10 @@
 {
-  "name": "sick-fits-backend",
+  "name": "ccdb-backend",
   "version": "2.0.0",
   "private": true,
-  "author": "Wes Bos",
   "license": "MIT",
   "scripts": {
-    "dev": "keystone-next",
-    "seed-data": "keystone-next --seed-data"
-  },
-  "eslintConfig": {
-    "extends": "wesbos/typescript.js",
-    "rules": {
-      "@typescript-eslint/no-unsafe-assignment": 0
-    }
+    "dev": "keystone-next"
   },
   "babel": {
     "presets": [
@@ -70,6 +62,5 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  },
-  "repository": "https://github.com/wesbos/advanced-react"
+  }
 }

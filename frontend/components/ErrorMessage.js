@@ -4,8 +4,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ErrorStyles = styled.div`
+  color: var(--lightGray);
   padding: 2rem;
-  background: white;
+  background: var(--black);
   margin: 2rem 0;
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-left: 5px solid red;
